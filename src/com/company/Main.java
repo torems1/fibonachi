@@ -6,7 +6,7 @@ public class Main{
 
         Fibonach chis=new Fibonach();
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter array size: ");
+        System.out.println("Enter array size:  ");
         int k= sc.nextInt();
         String arr = chis.arrayBuilder(k);
         System.out.println("[0] "+"[1] "+arr);
